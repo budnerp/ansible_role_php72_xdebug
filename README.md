@@ -4,7 +4,7 @@ Ansible role for Xdebug for PHP 7.2
 ## What's inside?
 1. Interesting PHP dirs and files: 
     ```
-    /etc/opt/remi/php72/php.d/15-xdebug.ini
+    /etc/php.d/15-xdebug.ini
     ```
 2. Custom settings as per defaults/main.yml
    
