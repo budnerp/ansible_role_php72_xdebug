@@ -1,0 +1,9 @@
+---
+- name: restart php-fpm
+  systemd:
+    name: php-fpm
+    state: restarted
+  register: handler_restart_php_fpm
+
+- debug:
+    var: handler_restart_php_fpm

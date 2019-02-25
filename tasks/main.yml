@@ -1,0 +1,19 @@
+---
+- name: XDEBUG - install Xdebug for PHP 7.2 from Remi's RPM repository
+  yum:
+    name: php72-php-pecl-xdebug
+    enablerepo: "remi-php72"
+    state: present
+
+- name: XDEBUG - upload Xdebug custom setting /etc/opt/remi/php72/php.d/15-xdebug.ini
+  template:
+    src: etc/php.d/15-xdebug.ini.j2
+    dest: /etc/php.d/15-xdebug.ini
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - restart php-fpm
+
+#  - debug:
+#      var: hostvars

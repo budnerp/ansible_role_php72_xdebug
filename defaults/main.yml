@@ -1,0 +1,20 @@
+---
+# XDEBUG
+
+# If this setting is 1, then stacktraces will be shown by default on an error event.
+xdebug_default_enable: 1
+
+# This switch controls whether Xdebug should try to contact a debug client which
+# is listening on the host and port as set with the settings xdebug.remote_host
+# and xdebug.remote_port.
+xdebug_remote_enable: 1
+
+# The port to which Xdebug tries to connect on the remote host.
+xdebug_remote_port: 9000
+
+# If this setting is 1, then Xdebug will disable the @ (shut-up) operator so
+# that notices, warnings and errors are no longer hidden.
+xdebug_scream: 1
+
+# Controls which IDE Key Xdebug should pass on to the DBGp debugger handler.
+xdebug_idekey: PHPSTORM
