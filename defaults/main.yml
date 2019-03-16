@@ -14,7 +14,7 @@ xdebug_remote_port: 9000
 
 # If this setting is 1, then Xdebug will disable the @ (shut-up) operator so
 # that notices, warnings and errors are no longer hidden.
-xdebug_scream: 1
+xdebug_scream: 0
 
 # Controls which IDE Key Xdebug should pass on to the DBGp debugger handler.
 xdebug_idekey: PHPSTORM
