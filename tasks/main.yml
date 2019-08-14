@@ -1,7 +1,7 @@
 ---
 - name: XDEBUG - install Xdebug for PHP 7.2 from Remi's RPM repository
   yum:
-    name: php72-php-pecl-xdebug
+    name: php-pecl-xdebug
     enablerepo: "remi-php72"
     state: present
 
