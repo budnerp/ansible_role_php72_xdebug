@@ -1,7 +1,7 @@
 {% raw %}
 ; Enable xdebug extension module
 ;zend_extension=xdebug.so
-zend_extension=/opt/remi/php72/root/usr/lib64/php/modules/xdebug.so
+zend_extension=/usr/lib64/php/modules/xdebug.so
 
 ; -----------------------------------------------------------------------------
 ; xdebug.auto_trace
@@ -660,6 +660,7 @@ xdebug.remote_autostart = 0
 ;
 ;
 ;xdebug.remote_connect_back = 0
+xdebug.remote_connect_back = 1
 
 ; -----------------------------------------------------------------------------
 ; xdebug.remote_cookie_expire_time
