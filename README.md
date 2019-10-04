@@ -30,7 +30,6 @@ Ansible role for Xdebug for PHP 7.2 for CentOS 7
 - [https://blog.remirepo.net/pages/PECL-extensions-RPM-status]()
 
 ## TO DO
--[ ] add dependencies 
 -[ ] check profiler and add defaults
 
 ## License
